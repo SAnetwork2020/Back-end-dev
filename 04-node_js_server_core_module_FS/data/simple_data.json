@@ -1,0 +1,14 @@
+{
+    "topic": "Asynchronous Programming",
+    "example": {
+        "description": "Placing a food order while continuing other activities.",
+        "code_snippet": "async def make_order():\n    await asyncio.sleep(3)\n    print('Order ready!')"
+    },
+    "key_concepts": [
+        "Task",
+        "Non-blocking",
+        "Callback",
+        "Promise/Future",
+        "Async/Await"
+    ]
+}

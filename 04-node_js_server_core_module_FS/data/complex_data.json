@@ -1,0 +1,49 @@
+{
+    "topic": "Asynchronous Programming",
+    "overview": {
+        "definition": "Programming that allows a unit of work to run separately from the main application thread.",
+        "analogy": "Ordering food at a restaurant without waiting idly for it."
+    },
+    "concepts": [
+        {
+            "name": "Task",
+            "description": "A unit of work that can be scheduled."
+        },
+        {
+            "name": "Non-blocking",
+            "description": "Program continues running without waiting for a task to complete."
+        },
+        {
+            "name": "Callback",
+            "description": "A function passed to another function to be called later."
+        },
+        {
+            "name": "Promise",
+            "description": "An object representing the eventual completion or failure of an asynchronous operation."
+        },
+        {
+            "name": "Async/Await",
+            "description": "Syntax that allows asynchronous code to be written like synchronous code."
+        }
+    ],
+    "examples": [
+        {
+            "language": "Python",
+            "code": "async def fetch_data():\n    await asyncio.sleep(2)\n    return 'Data received'"
+        },
+        {
+            "language": "JavaScript",
+            "code": "async function fetchData() {\n    await fetch('https://api.example.com/data');\n    console.log('Data received');\n}"
+        }
+    ],
+    "real_world_applications": [
+        "Web servers handling many requests simultaneously",
+        "Mobile apps loading data in the background",
+        "Video games downloading updates during gameplay"
+    ],
+    "meta": {
+        "author": "ChatGPT",
+        "created": "2025-04-28",
+        "version": "1.0"
+    }
+}
