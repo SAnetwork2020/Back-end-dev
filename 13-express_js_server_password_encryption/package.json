@@ -1,0 +1,21 @@
+{
+  "name": "13-express_js_server_password_encryption",
+  "version": "1.0.0",
+  "main": "server.ts",
+  "scripts": {
+    "start": "nodemon server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/chalk": "^0.4.31",
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.3",
+    "bcryptjs": "^3.0.2",
+    "chalk": "^5.4.1",
+    "express": "^5.1.0"
+  }
+}
